@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-container">
+        <div class="logo-search-container">
+          <div class="logo-container">
+            <a href="index.html"><img src="images/Logo.svg" alt="Logo" /></a>
+          </div>
+          <div class="search-container">
+            <input
+              type="search"
+              class="search-input"
+              placeholder="Search something here" />
+
+            <!-- Search Icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="search-icon">
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <!-- X icon -->
+            <svg
+              class="x-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 12l5.3-5.3a1 1 0 0 0-1.42-1.4L12 10.58l-5.3-5.3a1 1 0 0 0-1.4 1.42L10.58 12l-5.3 5.3a1 1 0 1 0 1.42 1.4L12 13.42l5.3 5.3Z"></path>
+            </svg>
+            <!-- filter icon -->
+            <img class="filter-icon" src="images/filter.svg" alt="filter" />
+          </div>
+        </div>
+        <!-- right side -->
+        <div class="header-setting">
+          <div>
+            <ul>
+              <div class="list-container">
+                <li>
+                  <button>
+                    <img class="heart" src="images/heart.svg" alt="heart" />
+                  </button>
+                </li>
+              </div>
+              <div class="list-container">
+                <div class="notification-bell">
+                  <li>
+                    <button>
+                      <img
+                        class="notification"
+                        src="images/notification.svg"
+                        alt="notification" />
+                    </button>
+                  </li>
+                  <div class="notification-red">
+                    <img
+                      src="images/Notif.png"
+                      alt="notification"
+                      width="10px" />
+                  </div>
+                </div>
+              </div>
+              <div class="list-container">
+                <li>
+                  <button>
+                    <img
+                      class="settings"
+                      src="images/setting-2.svg"
+                      alt="settings" />
+                  </button>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <button>
+                    <img src="images/Profil.svg" alt="profile" />
+                  </button>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
